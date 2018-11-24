@@ -1,4 +1,5 @@
 using Images
+using Base.Iterators
 function rule73(a,b,c)
   if (a & b & !c) | (!a & b & c) | (!a & !b & !c)
     return true
